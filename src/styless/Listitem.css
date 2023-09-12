@@ -1,6 +1,6 @@
 .Listitems{
     display: flex;
-    flex-wrap: wrap;
+    
     margin-top: 20px;
     align-items: center;
     justify-content: center;    
