@@ -1,19 +1,26 @@
-.countries{
+.displaycountry{
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
 }
-.filterlist{
-
-    margin-top: 10%;
+.countries{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+width: 100%;
+gap: 10px;
+}
+.filterinput{
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    margin-top: 5%;
+    margin-bottom: 4rem;
     width: 50%;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
     padding-left: 10px;
  }
- 
+
  

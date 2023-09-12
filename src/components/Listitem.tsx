@@ -1,11 +1,11 @@
 import React from 'react'
 import "../styless/Listitem.css"
 
-interface ListitemProps{
+interface IListitemProps{
     name:string
    
 }
-export const Listitem = ({name}:ListitemProps) => {
+export const Listitem = ({name}:IListitemProps) => {
   return (
     <div className='Listitems'>
 
