@@ -1,0 +1,13 @@
+.Listitems{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid black;
+    width: 33%;
+    height: 40px;
+}
+.Listitems:hover{
+    background-color:rgb(221, 208, 201);
+}

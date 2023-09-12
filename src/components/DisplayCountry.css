@@ -1,0 +1,4 @@
+.countries{
+display: flex;
+flex-wrap: wrap;
+}
